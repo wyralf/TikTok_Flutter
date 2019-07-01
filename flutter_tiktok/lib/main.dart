@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tiktok/app/MyApp.dart';
+import 'package:flutter_tiktok/app/Splash.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(Splash());
 
   if (Platform.isAndroid) {
     SystemUiOverlayStyle systemUiOverlayStyle =
